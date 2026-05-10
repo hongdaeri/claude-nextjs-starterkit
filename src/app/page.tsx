@@ -23,7 +23,10 @@ export default function Home() {
       <main className="container mx-auto flex-1 px-4">
         <HeroSection />
         <TechStackSection />
-        <div className="from-border/0 via-border to-border/0 h-px bg-gradient-to-r" aria-hidden="true" />
+        <div
+          className="from-border/0 via-border to-border/0 h-px bg-gradient-to-r"
+          aria-hidden="true"
+        />
         <ComponentShowcase />
       </main>
 

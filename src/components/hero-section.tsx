@@ -9,8 +9,7 @@ export function HeroSection() {
         className="pointer-events-none absolute inset-0 -z-10"
         aria-hidden="true"
         style={{
-          backgroundImage:
-            "radial-gradient(circle, oklch(0.5 0 0 / 0.15) 1px, transparent 1px)",
+          backgroundImage: "radial-gradient(circle, oklch(0.5 0 0 / 0.15) 1px, transparent 1px)",
           backgroundSize: "28px 28px",
           maskImage: "radial-gradient(ellipse 80% 55% at 50% 0%, black, transparent)",
         }}

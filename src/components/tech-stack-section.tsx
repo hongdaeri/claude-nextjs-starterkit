@@ -65,9 +65,7 @@ export function TechStackSection() {
               <CardTitle className="text-base">{title}</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="text-sm leading-relaxed">
-                {description}
-              </CardDescription>
+              <CardDescription className="text-sm leading-relaxed">{description}</CardDescription>
             </CardContent>
           </Card>
         ))}
