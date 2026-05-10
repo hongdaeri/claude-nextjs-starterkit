@@ -1,4 +1,12 @@
-import { ArrowRight, Component, ExternalLink, FileCode2, Palette, Sparkles, Zap } from "lucide-react";
+import {
+  ArrowRight,
+  Component,
+  ExternalLink,
+  FileCode2,
+  Palette,
+  Sparkles,
+  Zap,
+} from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -67,13 +75,14 @@ export default function Home() {
           <div
             className="pointer-events-none absolute inset-0 -z-10"
             style={{
-              backgroundImage: "radial-gradient(circle, oklch(0.5 0 0 / 0.15) 1px, transparent 1px)",
+              backgroundImage:
+                "radial-gradient(circle, oklch(0.5 0 0 / 0.15) 1px, transparent 1px)",
               backgroundSize: "28px 28px",
               maskImage: "radial-gradient(ellipse 80% 55% at 50% 0%, black, transparent)",
             }}
           />
 
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border bg-background/80 px-4 py-1.5 text-xs font-medium shadow-sm backdrop-blur-sm">
+          <div className="bg-background/80 mb-6 inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-medium shadow-sm backdrop-blur-sm">
             <Sparkles className="text-primary size-3" />
             Next.js 16 · Tailwind v4 · shadcn/ui
           </div>
@@ -124,7 +133,9 @@ export default function Home() {
                   <CardTitle className="text-base">{title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-sm leading-relaxed">{description}</CardDescription>
+                  <CardDescription className="text-sm leading-relaxed">
+                    {description}
+                  </CardDescription>
                 </CardContent>
               </Card>
             ))}
